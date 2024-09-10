@@ -28,6 +28,8 @@ export default [
       ...react.configs.recommended.rules,
       ...react.configs['jsx-runtime'].rules,
       ...reactHooks.configs.recommended.rules,
+      "no-console": "off",  // Tắt cảnh báo cho console.log
+      "no-unused-vars": "warn" , // Chuyển thành cảnh báo thay vì lỗi
       'react/jsx-no-target-blank': 'off',
       'react-refresh/only-export-components': [
         'warn',
